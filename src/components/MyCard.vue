@@ -4,6 +4,9 @@
             <h5 class="card-title">{{ proj.title}}</h5>
             <h6 class="card-subtitle mb-2 text-body-secondary">{{ proj.author }}</h6>
             <p class="card-text">{{ proj.description }}</p>
+            <router-link :to="{name: 'singleproject', params: {slug: proj.id}}" class="btn btn-primary">
+                Vedi post completo
+            </router-link>
 
         </div>
     </div>
