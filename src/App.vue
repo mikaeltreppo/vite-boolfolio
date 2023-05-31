@@ -1,6 +1,6 @@
 <script>
 import MyHeader from './components/MyHeader.vue';
-import MyMain from './components/MyMain.vue';
+import MyMain from './pages/MyMain.vue';
 
 
 export default {
@@ -14,8 +14,8 @@ export default {
 <template>
   <MyHeader>
   </MyHeader>
-  <MyMain>
-  </MyMain>
+  
+<router-view></router-view>
 </template>
 
 <style lang="scss">
