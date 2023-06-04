@@ -18,7 +18,7 @@ const router = createRouter(
             component: AppContact
         },
         {
-            path: '/blog/:slug',
+            path: '/blog/:id',
             name:'singleproject',
             component: SingleProject
         }
